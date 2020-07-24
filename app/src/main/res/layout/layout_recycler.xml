@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="?attr/editTextBackground"
+    android:foreground="@android:drawable/divider_horizontal_textfield">
+
+    <TextView
+        android:id="@+id/TextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:text="Name : "
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/TextAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:text="Age : "
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:layout_below="@+id/TextName"/>
+
+    <TextView
+        android:id="@+id/TextRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="16dp"
+        android:text="Roll No : "
+        android:textSize="16sp"
+        android:layout_below="@id/TextAge"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"
+        android:text="TextView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/age"
+        android:text="Age"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="90dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/roll"
+        android:layout_below="@+id/age"
+        android:text="Roll No"
+        android:layout_marginStart="90dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"/>
+
+    <ImageView
+        android:id="@+id/image_delete"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="300sp"
+        android:src="@drawable/ic_delete" />
+
+
+
+</RelativeLayout>
